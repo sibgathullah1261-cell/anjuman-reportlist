@@ -300,7 +300,7 @@
 
         <div style="margin-top: 15px;">
           <label for="Pro_Name">Program Name</label>
-          <input type="text" name="data[Pragrame Name]" id="Pro_Name" placeholder="e.g. Annual Science Fair" required="">
+          <input type="text" name="data[Pragrame_Name]" id="Pro_Name" placeholder="e.g. Annual Science Fair" required="">
         </div>
 
       </div>
@@ -316,7 +316,7 @@
 
         <div style="margin-bottom: 15px;">
           <label for="Pro_Dic">Program Description</label>
-          <textarea name="data[Programe Discription]" id="Pro_Dic" placeholder="Describe activities, schedule, and purpose..." required=""></textarea>
+          <textarea name="data[Programe_Discription]" id="Pro_Dic" placeholder="Describe activities, schedule, and purpose..." required=""></textarea>
         </div>
 
         <div>
@@ -336,7 +336,7 @@
           <div class="form-row">
             <div class="form-col">
               <label>First Holder Class</label>
-              <select id="h1_class" onchange="loadStudents(this.value,'list1')">
+              <select id="h1_class" name="data[First_Holder_Class]" onchange="loadStudents(this.value,'list1')">
                 <option value="" disabled="" selected="">Select Class</option>
                 <option value="U7">Class U7</option>
                 <option value="U6">Class U6</option>
@@ -358,7 +358,7 @@
           <div class="form-row">
             <div class="form-col">
               <label>Second Holder Class</label>
-              <select id="h2_class" onchange="loadStudents(this.value,'list2')">
+              <select id="h2_class" name="data[SecondHolder_Class]" onchange="loadStudents(this.value,'list2')">
                 <option value="" disabled="" selected="">Select Class</option>
                 <option value="U7">Class U7</option>
                 <option value="U6">Class U6</option>
@@ -380,7 +380,7 @@
           <div class="form-row">
             <div class="form-col">
               <label>Third Holder Class</label>
-              <select id="h3_class" onchange="loadStudents(this.value,'list3')">
+              <select id="h3_class" name="data[Third _Holder_Class]" onchange="loadStudents(this.value,'list3')">
                 <option value="" disabled="" selected="">Select Class</option>
                 <option value="U7">Class U7</option>
                 <option value="U6">Class U6</option>
